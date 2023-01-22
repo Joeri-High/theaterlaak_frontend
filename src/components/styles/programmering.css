@@ -1,0 +1,36 @@
+.meerinfo-contentbox {
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(88, 88, 88); 
+    width: 85%;
+    height: 300px;
+    position: relative;
+}
+
+.meerinfo-contentbox #filmfoto {
+    width: 220px;
+    height:300px;
+}
+
+.KoopTicket-contentbox {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255); 
+    width: 85%;
+    height: 500px;
+    position: relative;
+}
+
+.empty-contentbox {
+    margin: 0 auto;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    background-color: rgb(88, 88, 88); 
+}
+
+#meerButton {
+    margin-top:2%;
+    width: 200px;
+    border-color:lightgrey;
+    background-color: white;
+}

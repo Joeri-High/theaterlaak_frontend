@@ -1,0 +1,67 @@
+.StoelenMenu {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    
+  }
+  #selected {
+    text-align: left;
+  }
+  #screen {
+    background-color: rgb(1, 126, 221);
+    height: 25px;
+    width: 50%;
+    margin-left:25%;    
+  }
+  #entrance {
+    margin-top: 5%;
+    background-color: rgb(1, 126, 221);
+    height: 25px;
+    width: 50%;
+    margin-left:25%;
+  }
+  .seat {
+    background-color: rgb(1, 126, 221);
+    nav-index: 1;
+  }
+  @media only screen and (max-width: 800px) {
+    .seat {
+      font-size: 2px;
+      padding-left: 1px;
+      padding-right: 1px;
+      width:20%;
+      height:20%;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+  }
+    
+  .seat--reserved {
+    background-color: rgb(81, 81, 81);
+  }
+  
+  .seat--selected {
+    background-color: rgb(50, 50, 50);
+  }
+  
+  .seat-picker {
+    margin: auto;
+  }
+  
+  
+  div.blank {
+    display: none;
+  }
+  .seat-select{
+    margin: 10%;
+    background-color: rgb(212, 74, 212);
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .seat-select > h1{
+  font-size: 20px;
+  }
