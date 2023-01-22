@@ -73,8 +73,8 @@
   },
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
-    "start": "rimraf ./build && react-scripts start",
-    "build": "npm i --legacy-peer-deps &&react-scripts build",
+    "start": "npm i --legacy-peer-deps && rimraf ./build && react-scripts start",
+    "build": "npm i --legacy-peer-deps && react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint ./src/"
