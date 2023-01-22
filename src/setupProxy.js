@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 // const { env } = require('process');
 
-const target = 'https://theaterlaak6.azurewebsites.net'
+const target = 'https://theaterlaakback.azurewebsites.net'
 
 const context =  [
   "/weatherforecast",

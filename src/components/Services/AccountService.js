@@ -33,7 +33,7 @@ async function login(username, password) {
 
 function register(voornaam,achternaam,username,password,confirmPassword,telefoonnummer) {
     const body = { Voornaam:voornaam, Achternaam: achternaam, UserName: username, PasswordHash: password, ConfirmPassword: confirmPassword, Telefoonnummer: telefoonnummer};
-    return fetch('https://theaterlaak6.azurewebsites.net/api/account/register', {
+    return fetch('https://theaterlaakback.azurewebsites.net/api/account/register', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',

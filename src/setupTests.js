@@ -12,10 +12,10 @@ window.fetch = () => {
     {
       ok: true,
       json: () => Promise.resolve({
-        "authority": "https://theaterlaak6.azurewebsites.net",
+        "authority": "https://theaterlaakback.azurewebsites.net",
         "client_id": "theaterlaak",
-        "redirect_uri": "https://theaterlaak6.azurewebsites.net/authentication/login-callback",
-        "post_logout_redirect_uri": "https://theaterlaak6.azurewebsites.net/authentication/logout-callback",
+        "redirect_uri": "https://theaterlaakback.azurewebsites.net/authentication/login-callback",
+        "post_logout_redirect_uri": "https://theaterlaakback.azurewebsites.net/authentication/logout-callback",
         "response_type": "id_token token",
         "scope": "theaterlaakAPI openid profile"
      })

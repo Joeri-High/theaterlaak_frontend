@@ -9,7 +9,7 @@ const applicationUserService = {
 export default applicationUserService;
 
 async function getUserById(id) {
-    const response = await fetch(`https://theaterlaak6.azurewebsites.net/api/applicationuser/${id}`, {
+    const response = await fetch(`https://theaterlaakback.azurewebsites.net/api/applicationuser/${id}`, {
         method: 'GET',
         headers: authHeader()
     });
@@ -23,7 +23,7 @@ async function getUserById(id) {
 
 async function updateUserWithToken(token) {
     const body = { JwtDonatieToken: token }
-    await fetch('https://theaterlaak6.azurewebsites.net/api/applicationuser', {
+    await fetch('https://theaterlaakback.azurewebsites.net/api/applicationuser', {
         method: 'PUT',
         headers: {
             'Accept': 'application/json',
