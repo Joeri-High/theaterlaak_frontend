@@ -1,3 +1,3 @@
 export const config = {
-    apiUrl: 'https://theaterlaakback.azurewebsites.net'
+    apiUrl: 'https://theaterlaakback.azurewebsites.net/'
 };
