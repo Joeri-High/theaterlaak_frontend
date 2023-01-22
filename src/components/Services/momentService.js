@@ -13,7 +13,7 @@ export default momentService;
 
 function AddMoment(startDateTime, endDateTime, voorstellingId, zaalType) {
     const body = { startDateTime, endDateTime, voorstellingId, zaalType };
-    return fetch('https://localhost:7242/api/moment', {
+    return fetch('https://theaterlaak6.azurewebsites.net/api/moment', {
         method: 'POST',
         headers: authHeader(),
         body: JSON.stringify(body),

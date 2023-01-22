@@ -14,7 +14,7 @@ export default reserveringService;
 async function AddReservering(UserId, MomentId, GereserveerdeStoelenId) {
     const body = { UserId: UserId, MomentId: MomentId, GereserveerdeStoelenId:GereserveerdeStoelenId};
     
-    var response = await fetch('https://localhost:7242/api/reservering', {
+    var response = await fetch('https://theaterlaak6.azurewebsites.net/api/reservering', {
         method: 'POST',
         headers: authHeader(),
         body: JSON.stringify(body),
